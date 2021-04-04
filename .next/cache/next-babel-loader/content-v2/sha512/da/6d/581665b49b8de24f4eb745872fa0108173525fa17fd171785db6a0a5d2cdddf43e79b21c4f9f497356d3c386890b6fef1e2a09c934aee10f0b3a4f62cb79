@@ -1,0 +1,1 @@
+{"ast":null,"code":"import recipes from \"../data/recipes.json\";\nexport async function getRecipes() {\n  return recipes;\n}\nexport async function getRecipe(id) {\n  return recipes.find(recipe => recipe.id === id) || null;\n}","map":null,"metadata":{},"sourceType":"module"}

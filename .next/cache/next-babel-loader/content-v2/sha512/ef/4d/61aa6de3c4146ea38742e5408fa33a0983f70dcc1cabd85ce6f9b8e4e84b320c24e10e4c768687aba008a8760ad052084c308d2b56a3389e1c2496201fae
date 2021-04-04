@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function (req, res) {\n  res.json({\n    id: req.query.id\n  });\n}","map":null,"metadata":{},"sourceType":"module"}
